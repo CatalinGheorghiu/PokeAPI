@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useContext } from "react";
+
+import Navbar from "./components/Navbar/Navbar";
+import Pokemon from "./components/Pokemon";
+import { PokemonContext } from "./context/PokemonContext";
+
+import "./css/App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const { pokemon } = useContext(PokemonContext);
+
+    return (
+        <Fragment>
+            <Navbar />
+            {pokemon && <Pokemon url={pokemon.url} name={pokemon.name} />}
+        </Fragment>
+    );
 }
 
 export default App;

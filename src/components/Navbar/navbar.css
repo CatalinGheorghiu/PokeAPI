@@ -1,0 +1,31 @@
+.navbar {
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: #AAAAAA;
+}
+
+.logo:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.x {
+    width: 15%;
+}

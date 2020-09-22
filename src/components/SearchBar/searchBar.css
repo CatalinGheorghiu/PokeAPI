@@ -1,0 +1,32 @@
+li {
+    display: flex;
+}
+
+.search-bar {
+    border: none;
+    background-color: #f6f6f6;
+    color: #6d6c6c;
+    outline: none;
+    font-size: 1rem;
+    /* width: 500px; */
+}
+
+.search-bar-container {
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 17px;
+    padding: 10px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.results-container{
+
+}
+.results .pokemon-item{
+
+}
+
+.fa-search {
+    color: #007CF9;
+}

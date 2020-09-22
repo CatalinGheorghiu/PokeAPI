@@ -1,0 +1,19 @@
+/* .bioDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    perspective: 400px;
+    margin: auto 0;
+    width: 37em;
+}
+
+.bioDiv:hover .inner {
+    transform: rotate(0);
+    cursor: pointer;
+}
+
+.bioDiv .inner {
+    transition: .3s;
+    transform: rotateY(30deg);
+} */
